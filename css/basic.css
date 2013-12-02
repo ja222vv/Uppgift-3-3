@@ -40,8 +40,12 @@ a:hover {
 }
 #topbar {
     background:#51473D;
-    color:white;
     text-align:right;
+    font-style:italic;
+    font-family: "Verdana";
+    font-size:10px;
+    color:#EAE7D2;
+    padding:2px;
 }
 #menu {
     background:#51473D;

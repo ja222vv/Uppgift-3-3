@@ -55,13 +55,20 @@ a:hover {
 #maincontent {
     float:left;
     width:500px;
+    color:#797066;
 }
 #subcontent {
     float:right;
     width:300px;
+    color:#797066;
 }
 #bottomcontent {
     clear:both;
+    font-family: "Verdana";
+    font-size:10px;
+    font-style:italic;
+    padding:10px;
+    color:#797066;
 }
 .active a{
     background:#EAE7D2;

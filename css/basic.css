@@ -1,4 +1,36 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+ul {
+    list-style-type:none;
+}
+li {
+    display:block;
+}
+a {
+    font-family: "Verdana";
+    font-size:12px;
+    color:#51473D;
+}
+#menu a {
+    float:left;
+    width:100px;
+    line-height:30px;
+    text-decoration:none;
+    background:#797066;
+    text-align:center;
+    margin:0.5px;
+    color:#EAE7D2;
+    text-transform: capitalize;
+}
+#menu .active a {
+    background:#EAE7D2;
+    color:#9C9084;
+}
+#menu a:hover {
+    background:#9C9084;
+}
+a:hover {
+    background:#9C9084;
+}
 #container {
     width: 800px;
     margin-left:auto;
@@ -13,6 +45,8 @@
 }
 #menu {
     background:#51473D;
+    float:left;
+    width: 800px;
 }
 #maincontent {
     float:left;
@@ -25,3 +59,7 @@
 #bottomcontent {
     clear:both;
 }
+.active a{
+    background:#EAE7D2;
+}
+

@@ -1,1 +1,27 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container {
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#EAE7D2;
+    border: 1px solid #CECAB9;
+}
+#topbar {
+    background:#51473D;
+    color:white;
+    text-align:right;
+}
+#menu {
+    background:#51473D;
+}
+#maincontent {
+    float:left;
+    width:500px;
+}
+#subcontent {
+    float:right;
+    width:300px;
+}
+#bottomcontent {
+    clear:both;
+}

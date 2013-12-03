@@ -17,7 +17,7 @@ a {
     font-size:12px;
     color:#51473D;
 }
-#menu a {
+#menu li a {
     float:left;
     width:100px;
     line-height:30px;
@@ -28,9 +28,16 @@ a {
     color:#EAE7D2;
     text-transform: capitalize;
 }
-#menu .active a {
+#menu li {
+    margin-left:10px;
+}
+#menu .active a{
     background:#EAE7D2;
-    color:#9C9084;
+    color:#797066;
+}
+#menu .active a:hover {
+    background:#9C9084;
+    color:#EAE7D2;
 }
 #menu a:hover {
     background:#9C9084;

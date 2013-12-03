@@ -1,6 +1,13 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+h1 {
+    letter-spacing:1px;
+    font-weight:normal;
+    margin-left:10px;
+}
 ul {
     list-style-type:none;
+    margin:0;
+    padding:0;
 }
 li {
     display:block;
@@ -31,8 +38,22 @@ a {
 a:hover {
     background:#9C9084;
 }
+#maincontent p {
+    font-family: "Verdana";
+    font-size:12px;
+    line-height:20px;
+    letter-spacing:0.5px;
+    margin-left:10px;
+    margin-bottom:10px;
+    margin-right:5px;
+}
+#maincontent img {
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
 #container {
-    width: 800px;
+    width: 700px;
     margin-left:auto;
     margin-right:auto;
     background:#EAE7D2;
@@ -50,11 +71,11 @@ a:hover {
 #menu {
     background:#51473D;
     float:left;
-    width: 800px;
+    width: 700px;
 }
 #maincontent {
     float:left;
-    width:500px;
+    width:400px;
     color:#797066;
 }
 #subcontent {
@@ -64,10 +85,11 @@ a:hover {
 }
 #bottomcontent {
     clear:both;
+    height:20px;
     font-family: "Verdana";
     font-size:10px;
     font-style:italic;
-    padding:10px;
+    margin-left:10px;
     color:#797066;
 }
 .active a{
